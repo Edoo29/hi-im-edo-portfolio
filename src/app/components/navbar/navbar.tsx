@@ -29,12 +29,14 @@ export default function Navbar() {
         <a
           href="https://discordapp.com/users/1221847032499667149"
           className="hover:text-2xl transition-all"
+          aria-label="My Discord profile"
         >
           <FaDiscord />
         </a>
         <a
           href="https://github.com/Edoo29"
           className="hover:text-2xl transition-all"
+          aria-label="My GitHub profile"
         >
           <FaGithub />
         </a>
