@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { dancing_script } from "../font";
 import Timeline from "../components/timeline/timeline";
+import Scroll from "../components/scroll/scroll";
 
 export default function About() {
   return (
@@ -58,7 +59,9 @@ export default function About() {
         >
           👨‍💻
         </motion.p>
+        <Scroll />
         <Timeline />
+        <Scroll />
       </div>
     </>
   );

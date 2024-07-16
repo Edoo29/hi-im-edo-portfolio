@@ -2,8 +2,8 @@
 
 import { dancing_script, jetbrains_mono } from "../font";
 import { TypeAnimation } from "react-type-animation";
-import { PiMouseScroll } from "react-icons/pi";
 import { motion } from "framer-motion";
+import Scroll from "../components/scroll/scroll";
 
 export default function Home() {
   return (
@@ -74,14 +74,7 @@ export default function Home() {
       >
         Frontend Developer
       </motion.p>
-      <motion.div
-        initial={{ opacity: 0, y: 200 }}
-        whileInView={{ opacity: 1, y: 0, transition: { duration: 1 } }}
-        className="mt-10 md:mt-[80px] flex gap-3 place-items-center"
-      >
-        <PiMouseScroll className="text-white text-5xl" />
-        <span className="text-white text-xl">Scroll</span>
-      </motion.div>
+      <Scroll />
     </main>
   );
 }
