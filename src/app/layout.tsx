@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Hi, I'm Edo | Portfolio",
   description:
-    "A simply and minimal portfolio, where I show what I knwo and what technologies I use",
+    "A simply and minimal portfolio, where I show what I know and what technologies I use",
 };
 
 export default function RootLayout({
