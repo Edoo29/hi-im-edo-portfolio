@@ -27,7 +27,7 @@ export default function About() {
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
           >
-            My passion for this was born in September 2024, where I started with
+            My passion for this was born in September 2023, where I started with
             HTML and CSS.
           </motion.span>
           <motion.span
