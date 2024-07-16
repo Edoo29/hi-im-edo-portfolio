@@ -107,7 +107,7 @@ export default function Skills() {
         >
           Other tools 🚀
         </motion.p>
-        <div className="flex gap-10 text-white text-xl">
+        <div className="flex flex-col md:flex-row gap-10 text-white text-xl">
           <motion.p
             initial={{ y: 200, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1, transition: { duration: 0.25 } }}
