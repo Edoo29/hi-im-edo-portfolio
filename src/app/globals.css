@@ -23,3 +23,10 @@ nav {
   border: solid 2px rgba(255, 255, 2552, 0.2);
   border-radius: 50%;
 }
+
+.box {
+  border: solid 2px rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+}
