@@ -10,7 +10,7 @@ export default function Navbar() {
     <motion.nav
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
-      className={`${jetbrains_mono.className} flex justify-between p-5 bg-transparent backdrop-blur-xl rounded-xl shadow-xl`}
+      className={`${jetbrains_mono.className} hidden md:flex justify-between p-5 bg-transparent backdrop-blur-xl rounded-xl shadow-xl`}
     >
       <div className="grid grid-cols-2 gap-3 md:flex md:gap-10">
         {navbarElements.map((element) => {

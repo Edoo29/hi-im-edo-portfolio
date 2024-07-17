@@ -75,6 +75,9 @@ export default function Home() {
         Frontend Developer
       </motion.p>
       <Scroll />
+      <p className="block md:hidden mt-10 text-white">
+        Visit this portfolio on desktop for the full version
+      </p>
     </main>
   );
 }

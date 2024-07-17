@@ -7,8 +7,8 @@ import Scroll from "../components/scroll/scroll";
 export default function Skills() {
   return (
     <>
-      <div id="skills" className="mt-[700px] h-10 md:h-[200px]"></div>
-      <div className="mt-10 flex flex-col items-center justify-center gap-10">
+      <div id="skills" className="hidden md:block mt-[700px] h-[200px]"></div>
+      <div className="hidden mt-10 md:flex flex-col items-center justify-center gap-10">
         <motion.p
           initial={{ opacity: 0, x: 200 }}
           whileInView={{ opacity: 1, x: 0, transition: { duration: 0.5 } }}

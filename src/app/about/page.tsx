@@ -9,7 +9,7 @@ export default function About() {
   return (
     <>
       <div id="about" className="mt-[700px] h-10 md:h-[200px]"></div>
-      <div className="flex flex-col justify-center items-center mt-10">
+      <div className="hidden md:flex flex-col justify-center items-center mt-10">
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1, transition: { duration: 1 } }}
